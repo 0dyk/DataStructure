@@ -1,7 +1,6 @@
-package list;
+package util;
 
 import java.util.Arrays;
-import java.util.Iterator;
 
 public class MyArrayList<E> implements MyList<E> {
 
@@ -181,6 +180,13 @@ public class MyArrayList<E> implements MyList<E> {
         return Arrays.toString(elementData);
     }
 
+    // All 붙은 메소드
+    // clone()
+    // forEach
+    // removeIf : js의 filter 같은거
+    // ex) list.removeIf(n -> n % 2 == 0);
+    // 짝수 제거
+
     class ListIterator implements MyListIterator<E> {
         private int nextIndex = 0;
 
@@ -198,7 +204,6 @@ public class MyArrayList<E> implements MyList<E> {
         public boolean hasNext() {
             return nextIndex < size;
         }
-
         @Override
         public boolean hasPrevios() {
             return nextIndex > 0;
@@ -217,4 +222,6 @@ public class MyArrayList<E> implements MyList<E> {
     public ListIterator listIterator() {
         return new ListIterator();
     }
+
+
 }

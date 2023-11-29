@@ -1,4 +1,4 @@
-package list;
+package util;
 
 public interface MyListIterator<E> {
     E next();

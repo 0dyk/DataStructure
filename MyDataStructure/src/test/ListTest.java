@@ -1,9 +1,23 @@
-package list;
+package test;
 
-public class Test {
+import util.MyArrayList;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class ListTest {
     public static void main(String[] args) {
 
+        List<Integer> list = new ArrayList<>();
+        List<Integer> list2 = new LinkedList<>();
+
+//        ArratListTest();
+        LinkedListTest();
+
+    }
+
+    private static void ArratListTest() {
         MyArrayList<Integer> list = new MyArrayList<>(4);
 
         list.add(1);
@@ -25,6 +39,10 @@ public class Test {
 
         // default_capacity = 10이라서 10개 나옴
         list.clear();
-        System.out.println(list);
+        System.out.println(list);    
+    }
+
+    private static void LinkedListTest() {
+
     }
 }

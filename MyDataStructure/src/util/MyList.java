@@ -1,9 +1,4 @@
-package list;
-
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+package util;
 
 public interface MyList<E> {
 
@@ -40,5 +35,10 @@ public interface MyList<E> {
     // 배열로 변환
     Object[] toArray();
 
-//  iterator
+    // All 키워드 붙은 메소드
+    // sort
+    // equal
+    // hash
+    // sublist
+    //  iterator
 }
