@@ -2,14 +2,7 @@
 
 ### MyDataStructure(JAVA)
 
-- LIST
-    - MyList 
-    - MyListIterator
-    - MyArrayList
-
-
-
-
+<img src="./MyDataStructure/collection.jfif">
 
 
 ### CPP
