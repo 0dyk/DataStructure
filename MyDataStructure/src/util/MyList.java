@@ -15,7 +15,7 @@ public interface MyList<E> {
     // 특정 위치의 요소 반환
     E get(int index);
     // 특정 위치에 있는 요소를 교체
-    void set(int index, E e);
+    E set(int index, E e);
 
     // 요소의 위치 반환
     int indexOf(Object o);

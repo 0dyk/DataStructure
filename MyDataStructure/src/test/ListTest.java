@@ -17,6 +17,7 @@ public class ListTest {
 
 //        List<Integer> list = new ArrayList<>();
 //        List<Integer> list2 = new LinkedList<>();
+//          Stack<Integer> s = new Stack<>();
 
 //        ArratListTest();
 //        LinkedListTest();

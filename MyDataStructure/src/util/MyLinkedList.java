@@ -314,8 +314,8 @@ public class MyLinkedList<E> implements MyList<E>, MyDeque<E>{
     }
 
     @Override
-    public void set(int index, E e) {
-
+    public E set(int index, E e) {
+        return null;
     }
 
     @Override

@@ -85,6 +85,8 @@ public class MyPriorityQueue<E> {
         else
             siftUpComparable(k, x);
     }
+
+    // k번째에 x를 추가
     @SuppressWarnings("unchecked")
     private void siftUpComparable(int k, E x) {
         Comparable<? super E> key = (Comparable<? super E>) x;
@@ -186,20 +188,93 @@ public class MyPriorityQueue<E> {
         return true;
     }
 
-    // 형변환 때문인가?
     @SuppressWarnings("unchecked")
     public E peek() {
         return (size == 0) ? null : (E) queue[0];
     }
 
+    @SuppressWarnings("unchecked")
+    public E poll() {
+        if (size == 0)
+            return null;
+        int s = --size;
+//        modCount++;
+        E result = (E) queue[0];
+        E x = (E) queue[s];
+        queue[s] = null;
+        if (s != 0)
+            siftDown(0, x);
+        return result;
+    }
+
+    // value값으로 삭제(equals 비교)
+    // indexof가 O(N) + removeAt이 O(logN)
+    public boolean remove(Object o) {
+        int i = indexOf(o);
+        if (i == -1)
+            return false;
+        else {
+            removeAt(i);
+            return true;
+        }
+    }
+
+    // == 비교
+    boolean removeEq(Object o) {
+        for (int i = 0; i < size; i++) {
+            if (o == queue[i]) {
+                removeAt(i);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // index로 삭제 O(logN)
+    @SuppressWarnings("unchecked")
+    private E removeAt(int i) {
+        // assert i >= 0 && i < size;
+        // modCount++;
+        int s = --size;
+        if (s == i) // removed last element
+            queue[i] = null;
+        else {
+            E moved = (E) queue[s];
+            queue[s] = null;
+            siftDown(i, moved);
+            if (queue[i] == moved) {
+                siftUp(i, moved);
+                if (queue[i] != moved)
+                    return moved;
+            }
+        }
+        return null;
+    }
+
+    // O(N)
+    public boolean contains(Object o) {
+        return indexOf(o) != -1;
+    }
+
+    public int size() {
+        return size;
+    }
+
+    // 모든 값을 null로 초기화
+    // O(N)
+    public void clear() {
+//        modCount++;
+        for (int i = 0; i < size; i++)
+            queue[i] = null;
+        size = 0;
+    }
 
 
+    // comparator 반환 함수도 있음
 
+    public Object[] toArray() {
+        return Arrays.copyOf(queue, size);
+    }
 
-
-
-
-
-
-
+    // Iterator 생략
 }

@@ -113,12 +113,12 @@ public class MyArrayList<E> implements MyList<E> {
     }
 
     @Override
-    public void set(int index, E e) {
+    public E set(int index, E e) {
         if(index < 0 || index >= size){
             throw new IndexOutOfBoundsException();
         }
-
         elementData[index] = e;
+        return e;
     }
 
     @Override
