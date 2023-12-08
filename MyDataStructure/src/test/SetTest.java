@@ -1,19 +1,18 @@
 package test;
 
-import java.util.EnumSet;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.*;
 
 public class SetTest {
 
     public static void main(String[] args) {
         Set<Integer> hs = new HashSet<>();
         Set<Integer> ls = new LinkedHashSet<>();
+        Set<Integer> lls = new TreeSet<>();
+
 
         // HashSetTest();
         // LinkedHashSetTest();
-         EnumSetTest();
+//         EnumSetTest();
     }
 
     private static void HashSetTest(){
