@@ -274,15 +274,6 @@ public class MyHashtable<K,V> implements MyMap<K, V>, java.io.Serializable {
         return null;
     }
 
-
-
-
-
-
-
-
-
-
     // 오...
     @SuppressWarnings("unchecked")
     protected void rehash() {
