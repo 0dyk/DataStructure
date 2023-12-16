@@ -1,7 +1,6 @@
 package util;
 
 public interface MyNavigableSet<E> extends MySortedSet<E> {
-
     E lower(E e);
     E floor(E e);
     E ceiling(E e);

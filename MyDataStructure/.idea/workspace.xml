@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bd439e1-3048-4088-b423-d6683d7bee95" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/MyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/MyHashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/MyHashtable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/MyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/MyMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/MyNavigableMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/MyNavigableMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/MyNavigableSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/MyNavigableSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/MySortedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/MySortedMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/MyTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/MyTreeMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,31 +30,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../SSAFY/Zulu/zulu-8/src.zip!/java/util/TreeMap.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ZWoFerqaR8s9J69VKIiJgmBWVI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/zerodyk/DataStructure/MyDataStructure",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/zerodyk/DataStructure/MyDataStructure&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,10 +67,23 @@
       <option name="presentableId" value="Default" />
       <updated>1702547093782</updated>
       <workItem from="1702547094785" duration="3872000" />
+      <workItem from="1702616946316" duration="10000" />
+      <workItem from="1702744995363" duration="4757000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
